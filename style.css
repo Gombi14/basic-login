@@ -1,0 +1,78 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(circle at 65% 20%, lightseagreen, rgba(100,0,200));  background-size: 100% 100vh;
+}
+main{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0px auto;
+  border: 1px solid gray;
+  align-items: center;
+  border-radius: 50px;
+  margin-top: 120px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.email{
+  width: 300px;
+  height: 35px;
+  border-radius: 10px;
+  margin-top: 0px;
+  border: gray 1px solid;
+  padding-left:10px;
+}
+.password{
+  margin-top: 15px;
+  width: 300px;
+  height: 35px;
+  border-radius: 10px;
+  border: gray 1px solid;
+  padding-left:10px;
+}
+.submit{
+  margin-top: 25px;
+  text-align: center;
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  border: 0px;
+  background-color: lightseagreen;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+.icono{
+  height: 150px;
+  margin-top: 80px;
+}
+.welcome{
+  font-family: sans-serif;
+  text-align: left;
+  background-image: radial-gradient(circle at 20% 50%, rgba(100,0,200),lightseagreen);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.submit:hover{
+  background-image: radial-gradient(circle at 50% 50%,purple, rgba(100,0,200));
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  animation: hover 0.3s;
+}
+
+@keyframes hover {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.fa-solid{
+  color: lightseagreen;
+  margin-right: 10px;
+}
